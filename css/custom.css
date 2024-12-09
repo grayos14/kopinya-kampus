@@ -1,0 +1,24 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+:root {
+  --cnvs-themecolor: #0d4b40; /* #242e35 */
+  --cnvs-themecolor-rgb: 13, 75, 64;
+
+  --cnvs-themecolor-2: #c2ac7d;
+  --cnvs-themecolor-2-rgb: 194, 172, 125;
+
+  --cnvs-body-bg: #e2d9d0;
+}
+
+#header {
+  --cnvs-primary-menu-font-size: 1.125rem;
+  --cnvs-primary-menu-tt: uppercase;
+  --cnvs-primary-menu-ls: 1px;
+  --cnvs-primary-menu-color: var(--cnvs-themecolor);
+  --cnvs-primary-menu-submenu-hover-bg: var(--cnvs-themecolor);
+  --cnvs-primary-menu-hover-color: var(--cnvs-themecolor);
+}
